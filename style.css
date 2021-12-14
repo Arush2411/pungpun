@@ -1,7 +1,8 @@
 .heading
 {
     width: 100%;
-  text-align: left;
+    text-align: left;
+
 }
 body
 {
@@ -11,6 +12,8 @@ body
 .heading h3
 {
 display: inline;
+text-align: left;
+margin: 30px;
 }
 
 .heading button
