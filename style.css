@@ -43,11 +43,6 @@ h4
     width: 90%;
 }
 
-.instruction_image
-{
-    display: inline-block;
-    width: 45%;
-}
 
 #restart
 {
@@ -61,3 +56,24 @@ h1{
    color: darkturquoise;
    background-color: darkblue; 
 }
+
+canvas 
+  {
+      animation-name: border;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px lavenderblush;
+  }
+
+  @keyframes border {
+    from {
+      border: 10px ridge lavenderblush;
+    }
+  
+    to {
+        border: 3px dashed darkcyan;
+    }
+  }
+  
+  
